@@ -49,6 +49,9 @@ build/Release
 # Dependency directories
 node_modules/
 
+# Backuup directories
+backup/
+
 # application build directory
 build/
 
