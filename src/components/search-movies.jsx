@@ -30,7 +30,7 @@ class SearchMovies extends Component {
     currentPage: 1,
     itemPerPage: 20,
     totalPages: 0,
-    totalCount: 0,
+    totalCount: null,
     introduction: true,
     loadingImage: false,
     sortColumn: { key: "title", order: "asc" }
@@ -251,6 +251,13 @@ class SearchMovies extends Component {
                       <i class="fa fa-film"></i>
                       <div style={{ clear: "both" }}></div>
                       Search Your Favorite Movies Here!
+                    </h2>
+                  )}
+                  {totalCount === 0 && loadingImage === false && (
+                    <h2 className="notfound-message">
+                      <i class="fa fa-film"></i>
+                      <div style={{ clear: "both" }}></div>
+                      Sorry, no result found on your search!
                     </h2>
                   )}
                   {totalCount > 0 && (
