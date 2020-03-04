@@ -1,0 +1,7 @@
+{
+  "apiUrl": "https://api.themoviedb.org/3",
+  "apiKey": "2ef0039d61568d110e49e256187b5b23",
+  "requestToken": "5b2d779a3021a9dd89994b2e0917b5b4d55ad615",
+  "sessionId": "d9b94429b2b6974f639f90187cc0ed20434e7ae6",
+  "imagePath": "https://image.tmdb.org/t/p/original"
+}

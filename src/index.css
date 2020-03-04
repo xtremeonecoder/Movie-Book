@@ -1,0 +1,163 @@
+/**
+ * Movie Book - Application
+ *
+ * @category   Application_Frontend
+ * @package    movie-book
+ * @author     Suman Barua
+ * @developer  Suman Barua <sumanbarua576@gmail.com>
+ **/
+
+body {
+  margin: 0;
+  padding-top: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.navbar {
+  margin-bottom: 30px;
+}
+
+div.word-info > ul > li {
+  font-weight: bold;
+}
+
+/* spinner loader start */
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  border-left: 16px solid pink;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* spinner loader end */
+
+/* Font-Awesome Custom Style */
+.fa-star,
+.fa-eye {
+  color: red;
+}
+/* Font-Awesome Custom Style */
+
+/* Customized CSS */
+ul.movie-actions {
+  list-style: none;
+  padding-left: 15px;
+}
+a,
+button {
+  outline: none !important;
+}
+.table td,
+.table th {
+  padding: 0.4rem;
+}
+div.container {
+  min-height: 570px;
+}
+/* ul.movie-schedule li {} */
+h2.section-title {
+  font-weight: bold;
+  color: brown;
+  font-style: italic;
+}
+h2.intro-message {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  margin-top: 30px;
+  color: #036a1b;
+}
+h2.section-title2 {
+  font-size: 24px;
+  text-align: center;
+}
+p.movie-tagline {
+  font-style: italic;
+  font-weight: bold;
+  color: #ff6c00;
+}
+ul.movie-schedule li strong {
+  color: #007bff;
+}
+div.movie-details-actions {
+  float: right;
+  margin-top: -10px;
+}
+div.movie-details-actions > ul {
+  padding: 0px;
+}
+div.movie-details-actions > ul > li {
+  display: inline-flex;
+  border-bottom: 0px;
+  padding: 0px 15px;
+}
+.form-control {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.fa-leaf {
+  font-size: 34px;
+  color: #018401;
+}
+.fa-5x {
+  text-align: center;
+  margin: 100px 0px 0px 0px;
+}
+.fa-film {
+  font-size: 4em;
+  color: #018401;
+  opacity: 0.4;
+  margin-bottom: 5px;
+}
+form.form-inline {
+  margin: 0 auto;
+}
+.form-control.mr-sm-2 {
+  width: 67%;
+  padding: 0px 5px;
+  margin-right: 3px;
+}
+.btn {
+  background-color: #036a1b;
+}
+.btn-outline-success {
+  color: #ffffff;
+  border-color: #036a1b;
+}
+/* Customized CSS */
