@@ -3,5 +3,6 @@
   "apiKey": "API_KEY",
   "requestToken": "REQUEST_TOKEN",
   "sessionId": "SESSION_ID",
-  "imagePath": "https://image.tmdb.org/t/p/original"
+  "imagePath": "https://image.tmdb.org/t/p/original",
+  "imageNotFound": "/theme/images/image-not-found.jpg"
 }

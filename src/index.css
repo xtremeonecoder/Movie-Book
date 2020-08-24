@@ -1,5 +1,5 @@
 /**
- * Movie Book - Application
+ * Movie Book - Application - index.css
  *
  * @category   Application_Frontend
  * @package    movie-book
@@ -156,7 +156,7 @@ form.form-inline {
   margin: 0 auto;
 }
 .form-control.mr-sm-2 {
-  width: 67%;
+  width: 63%;
   padding: 0px 5px;
   margin-right: 3px;
 }

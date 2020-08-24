@@ -8,6 +8,11 @@ firebase-debug.log*
 
 # Firebase cache
 .firebase/
+.firebaserc
+firebase.json
+
+# Package Lock
+package-lock.json
 
 # git cache
 .git/

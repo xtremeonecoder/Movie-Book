@@ -1,5 +1,5 @@
 /**
- * Movie Book - Application
+ * Movie Book - Application - languages.js
  *
  * @category   Application_Frontend
  * @package    movie-book
@@ -50,7 +50,7 @@ const languages = {
   uk: "Ukrainian",
   ur: "Urdu",
   vi: "Vietnamese",
-  zh: "Chinese"
+  zh: "Chinese",
 };
 
 // returns array of object

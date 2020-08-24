@@ -1,5 +1,5 @@
 /**
- * Movie Book - Application
+ * Movie Book - Application - index.js
  *
  * @category   Application_Frontend
  * @package    movie-book
