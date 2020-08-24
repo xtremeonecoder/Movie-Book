@@ -34,7 +34,7 @@ I have written total 60 tests for this project, though there can be many other u
 
 All the test are passing, you can check the below screenshot:
 
-![Unit and Integration Test](https://github.com/xtremeonecoder/movie-book/blob/master/documentation/unit-integration-test.jpg)
+![Unit and Integration Test](https://github.com/xtremeonecoder/movie-book/blob/master/documentation/unit-and-integration-test.jpg)
 
 ## Test Cases for This Application:
 
