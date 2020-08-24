@@ -14,6 +14,9 @@ firebase.json
 # Package Lock
 package-lock.json
 
+# configuration file
+src/config.json
+
 # git cache
 .git/
 

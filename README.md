@@ -18,6 +18,23 @@ A simple React Application for searching movies from the internet, reviewing det
 - The application comes with super **_responsive features_**. It works absolutely fine on desktop, mobile and tablet platforms.
 - The application has **_movie details feature_**, where movie primary poster, movie details (such as - _title, tagline, review, ratings, votes, popularity, released languages, released date, production countries, production companies, movie genres_, and so forth), movie image slideshow, secondary posters and movie trailer are being displayed.
 - **_Favorite Movies_** and **_Movie Watchlist_** features are also incorporated with the movie details page for **_improving user experience_**.
+- Automated **_Unit Test_** and **_Integration Test_** features are also incorporated with the project. For **_Unit and Integration Test_**, I have used following library packages - **_Jest_**, **_Enzyme_** and **_Check Prop Types_**.
+
+## Configure The config.json File:
+
+After cloning the project, you need to configure the **_config.json_** file. Please replace **_API KEY_**, **_REQUEST TOKEN_** and **_SESSION ID_** with valid data. See the following screenshot:
+
+![Configuration file setup](https://github.com/xtremeonecoder/movie-book/blob/master/documentation/configuration.jpg)
+
+## Automated Test (Unit & Integration Test):
+
+I have written total 60 tests for this project, though there can be many other unit and integration tests possible, but for now I finished it with just 60 tests. For executing the automated test script simply enter the following command in your command line or terminal interface -
+
+`npm test`
+
+All the test are passing, you can check the below screenshot:
+
+![Unit and Integration Test](https://github.com/xtremeonecoder/movie-book/blob/master/documentation/unit-integration-test.jpg)
 
 ## Test Cases for This Application:
 
